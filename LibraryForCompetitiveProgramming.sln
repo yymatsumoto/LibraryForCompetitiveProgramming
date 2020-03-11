@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryForCompetitiveProgramming", "LibrariesForCompetitiveProgramming\LibraryForCompetitiveProgramming.csproj", "{DB10A5D5-2CF4-4734-831D-A297BA8015A2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryForCompetitiveProgramming", "LibraryForCompetitiveProgramming\LibraryForCompetitiveProgramming.csproj", "{DB10A5D5-2CF4-4734-831D-A297BA8015A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
