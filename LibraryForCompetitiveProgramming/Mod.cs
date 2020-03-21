@@ -49,5 +49,19 @@ namespace LibrariesForCompetitiveProgramming
                 return (b * ((n * n) % mod)) % mod;
             }
         }
+
+        public static long ModCombination(long sum, long num, long mod)
+        {
+            long x = 1;
+            for (var i = 0; i < num; i++)
+            {
+                x *= (sum - i);
+                x %= mod;
+            }
+
+            var result = (x * (ModPow(ModFactorial(num, mod), 1000000005, 1000000007))) % 1000000007;
+
+            return result;
+        }
     }
 }
