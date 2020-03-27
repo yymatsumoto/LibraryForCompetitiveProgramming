@@ -48,6 +48,8 @@
     <Compile Include="Calculation.cs" />
     <Compile Include="DepthFirstSearch.cs" />
     <Compile Include="Mod.cs" />
+    <Compile Include="PrimeNumber.cs" />
+    <Compile Include="PriorityQueue.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UnionFind.cs" />
