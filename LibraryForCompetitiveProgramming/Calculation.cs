@@ -41,5 +41,34 @@ namespace LibrariesForCompetitiveProgramming
         {
             return Factorial(all) / Factorial(n) * Factorial(all - n);
         }
+
+        //最大公約数(GreatestCommonDivisor)を得る
+        public static long EuclideanAlgorithm(long a, long b)
+        {
+            if (a < b)
+            {
+                var temp = a;
+                a = b;
+                b = temp;
+            }
+
+            long result = 0;
+            while (true)
+            {
+                var remainder = a % b;
+                if (remainder == 0)
+                {
+                    result = b;
+                    break;
+                }
+                else
+                {
+                    a = b;
+                    b = remainder;
+                }
+            }
+
+            return result;
+        }
     }
 }
